@@ -1,0 +1,25 @@
+{
+  "name": "adaro-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "adaro": "^0.1.5",
+    "dustjs-linkedin": "^2.5.0",
+    "dustjs-helpers": "^1.4.0",
+    "express": "^4.10.1",
+    "kraken-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "supertest": "^0.14.0",
+    "tape": "^3.0.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Jean-Charles Sisk <jeancharles@paypal.com>",
+  "license": "ISC"
+}

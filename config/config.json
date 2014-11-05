@@ -1,0 +1,13 @@
+{
+  "express": {
+    "view engine": "dust"
+  },
+  "view engines": {
+    "dust": {
+      "module": "adaro",
+      "renderer": {
+        "method": "dust"  
+      }
+    }  
+  }
+}
